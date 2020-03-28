@@ -11,7 +11,7 @@ public class PaymentAction {
 	private Logger logger;
 
 	public void pay(BigDecimal payValue) {
-		logger.log("pay begin, payValue is " + payValue);
+		logger.log("test pay begin, payValue is " + payValue);
 		logger.log("pay end");
 	}
 }

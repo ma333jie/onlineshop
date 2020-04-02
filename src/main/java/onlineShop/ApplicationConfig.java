@@ -14,7 +14,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @Configuration
 @EnableWebMvc
 public class ApplicationConfig {
-
+	
 	@Bean(name = "sessionFactory")
 	public LocalSessionFactoryBean sessionFactory() {
 		LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
@@ -30,9 +30,9 @@ public class ApplicationConfig {
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
                         // change to your own RDS_Endpoint
                         // change the username and password
-		dataSource.setUrl("jdbc:mysql://RDS_Endpoint:3306/ecommerce?serverTimezone=UTC");
-		dataSource.setUsername("USERNAME");
-		dataSource.setPassword("PASSWORD");
+		dataSource.setUrl("jdbc:mysql://laiproject-instance.ckpaqng2obpt.us-east-2.rds.amazonaws.com:3306/ecommerce?serverTimezone=UTC");
+		dataSource.setUsername("admin");
+		dataSource.setPassword("12345678");
 
 		return dataSource;
 	}

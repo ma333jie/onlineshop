@@ -30,7 +30,7 @@ public class SalesOrder implements Serializable {
 	@ManyToOne
 	private Customer customer;
 
-	@OneToOne
+	@ManyToOne
 	private ShippingAddress shippingAddress;
 
 	@OneToOne

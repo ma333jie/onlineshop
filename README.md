@@ -11,5 +11,23 @@
 The java object that is initializaed and managed by Spring. 
 
 
+## Lesson 29 OnlineShop Ordering System 
+
+Event driven architecture
+
+Streaming 
+Event- driven 
+- Decentralize
+- Events can be identifiers, need receiver
+- The publisher needs to communicate clearly without ambiguity. 
+- message queue, only one people get a message. pubsub, event bus they do not care who receieve the message 
+- event bus can flow down stream 
+
+State machine, step function 
+- state machine defined the state and the transaction between state. 
+- decentralized structure 
+
+
+
 
 
